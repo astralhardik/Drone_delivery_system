@@ -3,27 +3,6 @@
 
 A full-stack autonomous drone delivery project developed as a part of the LUSIP summer project at **LNMIIT**. This system integrates UAV design, autonomous mission planning, Aruco-based marker landing, web integration, and real-time database communication using Raspberry Pi and Pixhawk.
 
----
-
-## 📚 Table of Contents
-
-- [Project Overview](#project-overview)
-- [System Architecture](#system-architecture)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Components Used](#components-used)
-- [How It Works](#how-it-works)
-- [Simulation](#simulation)
-- [Additional Features](#additional-features)
-- [Website Integration](#website-integration)
-- [Results & Testing](#results--testing)
-- [Video Demonstration](#video-demonstration)
-- [Team & Credits](#team--credits)
-- [Future Work](#future-work)
-- [References](#references)
-
----
-
 ## 📌 Project Overview
 
 This project aims to develop an autonomous **drone delivery system** capable of transporting payloads efficiently and accurately between predefined locations using **GPS navigation**, **Aruco-based marker detection**, and **web-based mission input**. The drone is assembled using Pixhawk for flight control and Raspberry Pi for high-level automation and communication with cloud systems.
@@ -43,8 +22,6 @@ Pixhawk Flight Controller (UAV)
          ↓
 Drone (With Camera, Payload Box, GPS, ESCs)
 ```
-
----
 
 ## 🚀 Features
 
