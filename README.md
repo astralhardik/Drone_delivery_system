@@ -1,7 +1,7 @@
 
 # 🚁 Autonomous Drone Delivery System
 
-A full-stack autonomous drone delivery project developed as a part of the final year coursework at **The LNM Institute of Information Technology, Jaipur**. This system integrates UAV design, autonomous mission planning, Aruco-based marker landing, web integration, and real-time database communication using Raspberry Pi and Pixhawk.
+A full-stack autonomous drone delivery project developed as a part of the LUSIP summer project at **LNMIIT**. This system integrates UAV design, autonomous mission planning, Aruco-based marker landing, web integration, and real-time database communication using Raspberry Pi and Pixhawk.
 
 ---
 
@@ -53,8 +53,6 @@ Drone (With Camera, Payload Box, GPS, ESCs)
 - Web application for **pickup/delivery** location input
 - GPS and compass-based navigation
 - Integrated with **MongoDB** database
-- Simulated via **Gazebo**
-- Emergency user override using hardware switch
 - Lightweight payload delivery box (up to 500g)
 
 ---
@@ -67,7 +65,6 @@ Drone (With Camera, Payload Box, GPS, ESCs)
 - **DroneKit (Python API)**
 - **MongoDB Atlas**
 - **Next.js (Frontend + API)**
-- **Gazebo + ArduPilot**
 - **OpenCV + Aruco Marker Detection**
 
 ---
@@ -101,14 +98,6 @@ Drone (With Camera, Payload Box, GPS, ESCs)
 
 ---
 
-## 🧪 Simulation
-
-- Simulated in **Gazebo** using a virtual quadcopter
-- Used for testing mission scripts before real flight
-- ArduPilot plugin was not functional; only Gazebo visualization used
-
----
-
 ## 🎯 Additional Features
 
 ### A. Aruco Marker Detection
@@ -135,7 +124,7 @@ Drone (With Camera, Payload Box, GPS, ESCs)
 - Successfully navigated between locations with 95% accuracy
 - Real-time adjustments enabled through user hardware input
 - Visual confirmation using camera + Aruco
-- Flight time ~10 mins per mission with 2400 mAh battery
+- Flight time ~5-6 mins per mission with 2400 mAh battery
 
 ---
 
@@ -151,10 +140,7 @@ Watch the working prototype in action:
 - **Garvit Goyal** – 21dec004  
 - **Akul Khandelwal** – 21uec020  
 - **Labhesh Mundhada** – 21uec156  
-- **Hardik Agrawal** – 22uec045 *(Assisted)*  
-- **Advisors**: Dr. Atul Mishra & Dr. Mohit Makkar  
-- **Support**: Udayveer Singh, Robotics Lab Team – LNMIIT
-
+- **Hardik Agrawal** – 22uec045 *(Assisted)* 
 ---
 
 ## 🔮 Future Work
